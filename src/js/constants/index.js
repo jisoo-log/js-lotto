@@ -7,7 +7,10 @@ export const LOTTO = {
 
 export const ERR_MSG = {
   NOT_MULTIPLE_OF_1000: "로또 구입 금액을 1,000원 단위로 입력해 주세요.",
+  NOT_A_DUPLICATE_NUMBER: "로또 번호에는 중복된 숫자를 입력할 수 없습니다.",
 };
+
+export const PLACE_LENGTH = 5;
 
 export const PLACE = {
   FIRST: 0,
